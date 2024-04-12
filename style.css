@@ -1,0 +1,117 @@
+h1{
+
+	text-align: center;
+	font-size:80;
+	color:#8BFEEB;
+	font-family: Tilt Neon, sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-variation-settings:
+		"XROT" 0,
+		"YROT" 0;
+
+}
+
+h3{
+
+	font-family:Arial;
+	text-align: center;
+	font-size: 50;
+	color:white;
+
+}
+
+ul{
+
+	color:white;
+	font-size:30;
+	/*text-align:center;*/
+	font-family:Roboto;
+
+
+}
+
+button{
+	background-color: #8BFEEB;
+	text-align: center;
+	font-size:20;
+	border:5px solid grey;
+	border-radius: 10px;
+	height: 60px;
+	width: 200px;
+	margin:50px;
+
+	a {
+		text-decoration: none;
+	}
+	a:visited {
+		color: Black;
+	}
+}
+.bg-image {
+	background-image: url("./image.jpg");
+	border:5px solid white;
+	border-radius: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.white,h5 {
+	color:white;
+}
+.button-container, .bg-image {
+
+	margin-left: auto;
+    margin-right: auto;
+	height: 300px;
+	width: 500px;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flex-container > .flex-item {
+}
+
+
+.button-container{
+
+	height:100px
+
+}
+
+#icon {
+	height: 100px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+body{
+
+	background-color:#2F2F2F;
+
+}
+
+form{
+
+	text-align: center;
+}
+
+#ipsearch{
+
+	height:30px;
+	width:400px;
+}
